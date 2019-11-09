@@ -139,7 +139,7 @@ public class SQLiteToExcel {
                         handler.post(new Runnable() {
                             @Override
                             public void run() {
-                                listener.onCompleted(mExportPath + fileName);
+                                listener.onCompleted(mExportPath + "/" + fileName);
                             }
                         });
                     }
